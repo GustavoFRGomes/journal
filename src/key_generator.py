@@ -26,4 +26,4 @@ if __name__ == "__main__":
 
     password = input("Please enter a passphrase to derive the key from: ")
     key = generate_key(password, b'salt')
-    print("Generated key: ", base64.urlsafe_b64decode(key))
+    print("Generated key: ", key)
