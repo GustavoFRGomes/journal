@@ -9,6 +9,6 @@ The ultimate goal is also to add some more automatic steps, so overall this tool
 
 
 ## TODO:
- * There should be still one tool to rule it all, therefore you can even do the key generation, then also encrypting the files.
+ * --There should be still one tool to rule it all, therefore you can even do the key generation, then also encrypting the files.--
  * There should also be a scrupt to encrypt each file inside of ./content folder automatically.
  * It is missing a git-hook to encrypt the files that are decrypted into git, so that no file inside the ./content folder is commited and pushed while in plain-text.
