@@ -23,7 +23,7 @@ def decrypt_file(file_path: str, key: bytes):
 
 if __name__ == "__main__":
     if len(sys.argv) != 4:
-        print("Usage: script.py <encrypt/decrypt> <key> <file_path>")
+        print("Usage: encryption_manager.py <encrypt/decrypt> <key> <file_path>")
         sys.exit(1)
 
     operation = sys.argv[1]
